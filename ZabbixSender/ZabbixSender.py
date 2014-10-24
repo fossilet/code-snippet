@@ -7,6 +7,8 @@ try:
 except ImportError:
     import json as simplejson
 
+__version__ = "0.1"
+
 class ZabbixSender:
 	
 	zbx_header = 'ZBXD'
